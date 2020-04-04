@@ -13,6 +13,6 @@ app.use((request, response, next) => {
     next();
 });
 
-app.use('/predict', router);
+app.use('/api/v1', router);
 
 module.exports = app;

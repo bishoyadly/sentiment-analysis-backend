@@ -3,7 +3,7 @@ const app = require('../../../app');
 describe('Sentiment Analysis Controller Test suite', () => {
 
     test('request API to get sentence response', async () => {
-        const apiPath = '/predict/sentiment-analysis';
+        const apiPath = '/api/v1/sentiment-analysis';
         const requestObj = {
             sentence: 'I love javascript'
         };
